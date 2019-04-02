@@ -4,6 +4,8 @@ a web application to see histogram of an image for different color spaces
 
 [demo](http://alpercinar.com/histogram-viewer)
 
+![demo](https://github.com/alperr/histogram-viewer/raw/master/android_vid_test.gif)
+
 ### to develop
 
 	npm i -g typescript
