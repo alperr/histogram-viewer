@@ -1,0 +1,36 @@
+.application{
+	width: 1240px;
+	margin-left: calc(50% - 620px);
+}
+
+.application .image, .application .canvas{
+	width: 500px;
+	border: solid 1px #777;
+}
+
+/* .application .right-panel-container{
+	width: 680px;
+} */
+
+.button{
+	opacity: 0.8;
+	border-radius: 4px;
+	overflow: hidden;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	border: solid 4px #1110;
+}
+
+.button.selected{
+	border: solid 4px #9579FF;
+}
+
+.button canvas{
+	border: solid 1px #777;
+}
+
+.button:hover{
+	opacity: 1;
+	border: solid 4px #9579FF;
+}

@@ -1,0 +1,41 @@
+<div class='application'>
+	<input type="file" style="display: none;" class="file" accept="image/*">
+	<div class="w-100 float-left">
+		<div class="text-huge text-bold ml-1 mt-1 float-left text-aligned">Histogram Viewer</div>
+		<a target="_blank" href="https://github.com/alperr/histogram-viewer"><div class="btn-text float-right mt-1 text-small">source code</div></a>
+		<div class="text-small float-right mr-1 ml-1 mt-1 text-aligned">
+			<span class="btn-text image-selector">open a new image</span>
+		</div>
+	</div>
+	
+	<div class="w-100 float-left">	
+		<div class="float-left mt-1">
+			<canvas class="canvas float-left" style="display: block;"></canvas>
+			<img class="image float-left" style="display: none;">
+		</div>
+		<div class="big-histogram-container float-left ml-2 mt-1"></div>
+		<div class="w-50 float-left">
+			<div class="btn btn-small btn-primary float-left ml-2 mt-1 download" style="display: none;"></div>
+		</div>
+	</div>
+
+	<div class="rgb w-100 float-left">
+		<div class="text-large text-bold ml-05 mt-1">RGB</div>
+		<div class="button r"></div>
+		<div class="button g"></div>
+		<div class="button b"></div>
+	</div>
+	<div class="cmyk w-100 float-left">
+		<div class="text-large text-bold ml-05 mt-1">CMYK</div>
+		<div class="button c"></div>
+		<div class="button m"></div>
+		<div class="button y"></div>
+		<div class="button k"></div>
+	</div>
+	<div class="hsl w-100 float-left">
+		<div class="text-large text-bold ml-05 mt-1">HSL</div>
+		<div class="button h"></div>
+		<div class="button s"></div>
+		<div class="button l"></div>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Histogram Viewer</title>
+		<link rel="stylesheet" href="./dev.css">
+		<script src='./dev.js'></script>
+	</head>
+	<body>
+		<div id='root'></div>
+	</body>
+	<script id="wk-script">
+	window.onload = function ()
+	{
+		var xhr = new XMLHttpRequest();
+		xhr.open("GET","./dev.json");
+		xhr.send();
+		xhr.onload = function()
+		{
+			window.__markup_data = JSON.parse(xhr.responseText);
+			new Application(document.getElementById('root'));
+		}
+	}
+	</script>
+</html>
