@@ -7,7 +7,7 @@ a web application to see histogram of an image for different color spaces
 
 ![demo](https://raw.githubusercontent.com/alperr/histogram-viewer/master/demo.gif)
 
-### to develop
+### to run this on your local
 
 	npm i -g typescript
 	npm i -g wk-toolkit
