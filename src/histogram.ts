@@ -1,4 +1,3 @@
-/// <reference path="../com/histogram-group/histogram-group.ts" />
 /// <reference path="color.ts" />
 
 interface histogram_t

@@ -1,6 +1,6 @@
 # histogram-viewer
 
-a web application to see histogram of an image for different color spaces
+a web application to visualize histogram of an image for different color spaces
 
 [demo](http://alpercinar.com/histogram-viewer)
 

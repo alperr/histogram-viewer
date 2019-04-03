@@ -52,4 +52,3 @@ function loadTemplate(key: number): HTMLElement
 const MARKUP_APPLICATION = 0;
 const MARKUP_BASE = 1;
 const MARKUP_BIG_HISTOGRAM = 2;
-const MARKUP_HISTOGRAM_GROUP = 3;

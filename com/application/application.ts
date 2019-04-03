@@ -4,6 +4,7 @@
 /// <reference path="../../src/util.ts" />
 /// <reference path="../../src/canvas-util.ts" />
 /// <reference path="../../src/globals.ts" />
+/// <reference path="../big-histogram/big-histogram.ts" />
 
 class Application extends Component
 {
