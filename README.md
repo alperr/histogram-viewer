@@ -10,7 +10,7 @@ a web application to visualize histogram of an image for different color spaces
 ### to run this on your local
 
 	npm i -g typescript
-	npm i -g wk-toolkit
+	npm i -g wk-toolkit@0.2.22
 	git clone https://github.com/alperr/histogram-viewer
 	cd histogram-viewer
 	wk start
